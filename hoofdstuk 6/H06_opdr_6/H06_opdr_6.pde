@@ -3,5 +3,5 @@ boolean questTwee = true;
 boolean questDrie = true;
 
 if(questEen && questTwee && questDrie){
-println("waar");
+println("winnaar");
 }
