@@ -12,6 +12,6 @@ void setup(){
 }
 
   if(gevonden){
-    println("het aantal keer dat deze waarde voorkomt is " + aantalgevonden +".");
+    println("het aantal keer dat deze waarde voorkomt is: " + aantalgevonden +".");
     } 
 }
