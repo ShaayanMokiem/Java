@@ -72,7 +72,7 @@ void Knop1(){
   float mijnGetal = float(mijnString);
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
-  float antwoord= (mijnGetal * mijnGetal1);
+  float antwoord = (mijnGetal * mijnGetal1);
   
   fill(0,0,0);
   textSize(30);
