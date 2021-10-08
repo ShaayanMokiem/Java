@@ -1,19 +1,33 @@
 void setup(){
-  size(500,300);
-  
+  size(550,400);
+ 
 }
 
 void draw(){
-  background(255,255,255);
-  stroke(0,0,0);
-  
-for (int b = 0; b<=6; b++){
-  fill(137,183,55);
-  ellipse(5+80*b,200,100,30);
- for (int c= 0; c <=5 ;c++){
-   fill(138,102,66);
-   rect(15+80*c+70,215,20,80);
+  background (255,255,255);
+  bos(12,5);
+ 
+}
+
+void bos(int rij, int col){
+ 
+ 
+  for (int i = 0; i < rij; i++){
+  for (int j = 0; j < col; j++){
+   boom(i*40+40,j*50+50);
    
+  
+   
+ }
+ }
 }
-}
+
+void boom (int x, int y){
+  
+  fill (138,102,66);
+  rect (x,y,40,150);
+  fill (137,183,55);
+  ellipse(x + 20,y,150,80);
+  
+
 }
