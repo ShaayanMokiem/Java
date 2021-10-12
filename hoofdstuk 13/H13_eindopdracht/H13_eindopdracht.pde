@@ -30,13 +30,15 @@ void setup() {
     .setText("")
     .setSize(100, 50)
     .setPosition(200, 200)
-    .setCaptionLabel("");
+    .setCaptionLabel("")
+    .setAutoClear(false);
 
   TF2 = cp.addTextfield("TextField2")
     .setText("")
     .setSize(100, 50)
     .setPosition(70, 200)
-    .setCaptionLabel("");
+    .setCaptionLabel("")
+    .setAutoClear(false);
 
 
   knop1 = cp.addButton("Knop1")
