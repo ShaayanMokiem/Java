@@ -20,6 +20,9 @@ void setup() {
   size(370, 360);
   background(2, 103, 156);
   rect(-1, 0, 371, 50);
+  fill(0, 0, 0);
+  textSize(30);
+  text("0", 10, 35);
 
   cp = new ControlP5(this);
 
@@ -77,10 +80,11 @@ void Knop1() {
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
   float antwoord = (mijnGetal1 * mijnGetal);
-
+  fill(255, 255, 255);
+  rect(-1, 0, 371, 50);
   fill(0, 0, 0);
   textSize(30);
-  text(antwoord + "", 10, 30);
+  text(antwoord + "", 10, 35);
 }
 
 void Knop2() {
@@ -89,10 +93,11 @@ void Knop2() {
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
   float antwoord= (mijnGetal1 / mijnGetal);
-
+  fill(255, 255, 255);
+  rect(-1, 0, 371, 50);
   fill(0, 0, 0);
   textSize(30);
-  text(antwoord + "", 10, 30);
+  text(antwoord + "", 10, 35);
 }
 
 void Knop3() {
@@ -101,10 +106,11 @@ void Knop3() {
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
   float antwoord= (mijnGetal1 + mijnGetal);
-
+  fill(255, 255, 255);
+  rect(-1, 0, 371, 50);
   fill(0, 0, 0);
   textSize(30);
-  text(antwoord + "", 10, 30);
+  text(antwoord + "", 10, 35);
 }
 
 void Knop4() {
@@ -113,10 +119,11 @@ void Knop4() {
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
   float antwoord= (mijnGetal1 - mijnGetal);
-
+  fill(255, 255, 255);
+  rect(-1, 0, 371, 50);
   fill(0, 0, 0);
   textSize(30);
-  text(antwoord + "", 10, 30);
+  text(antwoord + "", 10, 35);
 }
 
 void Knop5() {
@@ -125,12 +132,19 @@ void Knop5() {
   mijnString = TF2.getText();
   float mijnGetal1 = float(mijnString);
   float antwoord = ((mijnGetal1 / mijnGetal) * 100);
+  fill(255, 255, 255);
+  rect(-1, 0, 371, 50);
   fill(0, 0, 0);
   textSize(30);
-  text(antwoord + "%", 10, 30);
+  text(antwoord + "%", 10, 35);
 }
 
 void Knop6() {
   fill(255, 255, 255);
   rect(-1, 0, 371, 50);
+  fill(0, 0, 0);
+  textSize(30);
+  text("0", 10, 35);
+  TF1.setText("");
+  TF2.setText("");
 }
