@@ -20,6 +20,7 @@ void setup() {
   size(370, 360);
   background(2, 103, 156);
   rect(-1, 0, 371, 50);
+  fill(255, 255, 255);
   fill(0, 0, 0);
   textSize(30);
   text("0", 10, 35);
